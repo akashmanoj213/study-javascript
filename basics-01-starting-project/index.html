@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Basics</title>
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="assets/styles/app.css" />
+    <script src="assets/scripts/vendor.js" defer></script>
+    <script src="assets/scripts/app.js" defer></script>
   </head>
   <body>
     <header>
@@ -17,7 +19,7 @@
     </header>
 
     <section id="calculator">
-      <input type="number" id="input-number" />
+      <input type="number" id="input-number" value="0"/>
       <div id="calc-actions">
         <button type="button" id="btn-add">+</button>
         <button type="button" id="btn-subtract">-</button>
